@@ -1,6 +1,6 @@
 var app = angular.module("Mod");
 //recall the mod which is our container.
-app.controller("controller1", function()});
+app.controller("controller1", function() {});
 
 //app.controller("controller1", function($scope, Factory, $location) {
 //     console.log('ctrl is running');

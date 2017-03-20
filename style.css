@@ -1,30 +1,37 @@
-a:hover{
-  font-size: 25px;
-  font-style: oblique;
-  font-weight: bolder;
-  background-color: #FFFF00;
+a:hover {
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bolder;
+    background-color: #FFFF00;
 }
 
-body{
-  font-size: 14px;
-  font-family: cursive;
+body {
+    font-size: 14px;
+    font-family: cursive;
 }
 
-.links{
-  font-size: 16px;
-  font-family: monospace;
-  background-color: lightgreen;
+.links {
+    font-size: 16px;
+    font-family: monospace;
+    background-color: lightgreen;
 }
-footer{
-  font-size: 18px;
-  font-family: monospace;
-  color:#551A8B;
-  font-weight: bold;
-}
-.container-fluid{
-  align-content: center;
-  margin-left: auto;
-  margin-top: 30px;
-  background-color: pink;
 
+footer {
+    font-size: 18px;
+    font-family: monospace;
+    color: #551A8B;
+    font-weight: bold;
+}
+
+.container-fluid {
+    align-content: center;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: pink;
+}
+
+#information {
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: bold;
 }
