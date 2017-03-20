@@ -1,0 +1,12 @@
+
+         <div class="container-fluid">
+           <div class="row">
+             <div class="col-md-4">
+               <nav class="nav navbar inverse">
+                   <a href="workpage.html">Portfolio Of My Work</a><br>
+                   <a href="exercise1.html">Main Page</a><br>
+                   <a href="exabout.html"> About Me </a><br>
+                   <a href="resume.html">Jennifer's Resume </a><br>
+                   <span class="glyphicon glyphicon-cutlery" id="fork" aria-hidden="true"href="link"> OMNOMNOM </span>
+               </nav>
+             </div>

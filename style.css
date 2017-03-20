@@ -1,0 +1,18 @@
+a:hover{
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bolder;
+  background-color: #FFFF00;
+}
+
+.links{
+  font-size: 18px;
+  font-family: monospace;
+  background-color: lightgreen;
+}
+footer{
+  font-size: 18px;
+  font-family: monospace;
+  color:#551A8B;
+  font-weight: bold;
+}
