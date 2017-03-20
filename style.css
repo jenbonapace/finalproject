@@ -5,8 +5,13 @@ a:hover{
   background-color: #FFFF00;
 }
 
+body{
+  font-size: 14px;
+  font-family: cursive;
+}
+
 .links{
-  font-size: 18px;
+  font-size: 16px;
   font-family: monospace;
   background-color: lightgreen;
 }
@@ -15,4 +20,11 @@ footer{
   font-family: monospace;
   color:#551A8B;
   font-weight: bold;
+}
+.container-fluid{
+  align-content: center;
+  margin-left: auto;
+  margin-top: 30px;
+  background-color: pink;
+
 }
