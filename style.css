@@ -15,18 +15,28 @@ body {
     font-family: monospace;
     background-color: lightgreen;
 }
-#bio{
-  color:white;
-  font-size: 22px;
-  font-family: cursive;
-  border-style: dotted;
-  border-spacing: inherit;
-  border-color: blue;
+
+#bio {
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+    border-style: dotted;
+    border-spacing: inherit;
+    border-color: blue;
 }
+
+.secondrow {
+
+  right: 0;
+    width: 200px;
+    height: 75%;
+    overflow-x: visible;
+}
+
 #map {
-  height: 100px;
-  width:100px;
- }
+    height: 400px;
+    width: 400px;
+}
 
 footer {
     font-size: 18px;

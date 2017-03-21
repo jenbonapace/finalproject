@@ -14,6 +14,11 @@ app.config(function($routeProvider, $locationProvider) {
             controller: "controller1",
             templateUrl: "htmlfiles/contact.html"
         })
+        .when("/templategrid", {
+            controller: "controller1",
+            templateUrl: "htmlfiles/templategrid.html"
+        })
+
         .otherwise({
             redirectTo: "/"
         });
