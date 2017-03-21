@@ -4,16 +4,21 @@ a:hover {
     font-weight: bolder;
     background-color: #FFFF00;
 }
-
-body {
-    font-size: 14px;
-    font-family: cursive;
-}
-
 .links {
     font-size: 16px;
     font-family: monospace;
     background-color: lightgreen;
+}
+body{
+  background-color: pink;
+}
+
+.pull-left{
+padding-right: 10px;
+padding-left: 10px;
+align-content: left;
+margin-top: 30px;
+background-color: pink;
 }
 
 #bio {
@@ -26,9 +31,9 @@ body {
 }
 
 .secondrow {
-
-  right: 0;
-    width: 200px;
+position: fixed;
+right:390px;
+    width:400px;
     height: 75%;
     overflow-x: visible;
 }
@@ -43,13 +48,6 @@ footer {
     font-family: monospace;
     color: #551A8B;
     font-weight: bold;
-}
-
-.container-fluid {
-    align-content: center;
-    margin-left: auto;
-    margin-top: 30px;
-    background-color: pink;
 }
 
 #information {
