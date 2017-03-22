@@ -1,40 +1,50 @@
+body {
+    background-color: pink;
+}
+
 a:hover {
     font-size: 25px;
     font-style: oblique;
     font-weight: bolder;
     background-color: #FFFF00;
 }
+
 .links {
     font-size: 16px;
     font-family: monospace;
     background-color: lightgreen;
 }
-body{
-  background-color: pink;
-}
 
-.pull-left{
-padding-right: 10px;
-padding-left: 10px;
-align-content: left;
-margin-top: 30px;
-background-color: pink;
+.pull-left {
+    padding-right: 10px;
+    padding-left: 10px;
+    align-content: left;
+    margin-top: 30px;
+    background-color: pink;
 }
 
 #bio {
-    color: white;
+    color: blue;
     font-size: 22px;
-    font-family: cursive;
     border-style: dotted;
     border-spacing: inherit;
     border-color: blue;
 }
 
+#navbar {
+    width: 25%;
+    position: sticky;
+    right: 5px;
+    height: 100%;
+    position: static;
+    background-color: lightpink;
+}
+
 .secondrow {
-position: fixed;
-right:390px;
-    width:400px;
-    height: 75%;
+    float: right;
+    position: static;
+    width: 25%;
+    
     overflow-x: visible;
 }
 
