@@ -2,7 +2,7 @@
 <html ng-app="Mod">
 
 <head>
-    <link rel="stylesheet" href="/style.css">
+
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js"></script>
@@ -13,78 +13,81 @@
     <!-- <script type="text/javascript" src="javascript/factory.js"></script> -->
     <!-- <script type="text/javascript" src="javascript/directives.js"></script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
     <title>Jennifer</title>
 </head>
+
 <body>
-  <div class="secondrow">
-    <!-- ask here if can add both classes?<div class -->
-    <a class="twitter-timeline" data-lang="en" data-theme="dark" href="https://twitter.com/JenBonapace">Tweets by JenBonapace</a>
-  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
-    <div class="col-md-8">
-        <h3> <strong>Jennifer's Website </strong> </h3>
-        <img src="images/hartplaza.jpg" alt="Hart Plaza Metal Sculpture in Detroit" HSPACE=20px class="pull-left" width=240px;></img>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-    </div>
-
-    <div class="col-md-8 columns">
-        <div class="container-fluid">
-            <ng-view></ng-view>
-        </div>
-    </div>
-
-
-
-<div class id ="navbar"
-    <!-- <div class="col-4"> -->
-        <nav class="nav navbar inverse">
-            <a href="#/aboutME">Click here for My Biography!</a><br>
-            <!-- nothing here yet -->
-            <a href="#/templategrid">Portfolio Of My Work</a><br>
-            <!-- nothing here yet -->
-            <a href="#/resume">Jennifer's Resume </a><br>
-            <!-- nothing here yet -->
-            <a href="#/quotes">Click here for Quotes!</a><br>
-            <!-- //link is broken  here -->
-            <a href="#/travel">Click here to see more about My travels</a><br>
-            <a href="#/contact">See My Contact Information</a><br>
-            <!--check out this glyphicon and link to yelp page  -->
-            <!-- <span class="glyphicon glyphicon-cutlery" id="fork" aria-hidden="true" <a href="https://www.yelp.com/user_details?userid=fngbWo26LpWNHFFm4h0Qig"> OMNOMNOM! Check out my Yelp profile</span></a> -->
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">See More!<span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <li><a href="https://www.mcwt.org/"> Charity I support that helps women break the glass ceiling in Technology</a></li>
-                <li><a href="https://www.reddit.com/r/kittens/">Kitten Photos!</a></li>
-                <li><a href="http://visitdetroit.com/">Visit Detroit</a></li>
-            </ul>
-            <iframe src="http://widgets.klout.com/badge/Jenbonapace" style="border:0" scrolling="no" allowTransparency="true" frameBorder="0" width="200px" height="98px">Klout Score</iframe><br>
-        </nav>
-
-    <!-- </div> -->
-  </div>
-
-
 
     <div class="container">
-        <h3>Eat More Cake</h3>
-        <a href="http://www.countryliving.com/food-drinks/recipes/a871/basic-vanilla-cake-69/" data-toggle="tooltip" title="Yum!Yum!"> Click for Vanilla Cake Recipe</a>
-    </div>
-    <div class="col-md-8">
-        <p id="Information">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
 
-    <footer>
-        <div class="col-md-8">
-            <hr> Created By Jennifer Bonapace <br> March 2017 <br>
-            <span class="glyphicons glyphicons-heart-empty"></span><br>
-            <a href="https://github.com/jenbonapace/finalproject">View the Code In Github!</a>
+        <!-- <div class="secondrow"> -->
+        <div class='row'>
+            <div class="col-md-8">
+                <h3> <strong>Jennifer's Website </strong> </h3>
+                <img src="images/hartplaza.jpg" alt="Hart Plaza Metal Sculpture in Detroit" HSPACE=20px class="pull-left" width=240px;></img>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <div id="navbar">
+                    <nav class="navbar navbar-default">
+                        <a href="#/aboutME"> Click here for My Biography!</a><br>
+                        <a href="#/templategrid"> Portfolio Of My Work </a><br>
+                        <!-- <a href="#/resume">Jennifer's Resume </a><br>
+      <!nothing here yet -->
+                        <!-- <a href="#/quotes">Click here for Quotes!</a><br> -->
+                        <!-- //link is broken  here -->
+                        <a href="#/travel">Click here to see more about My travels</a><br>
+                        <a href="#/contact">See My Contact Information</a><br>
+                        <!--check out this glyphicon and link to yelp page  -->
+                        <!-- <span class="glyphicon glyphicon-cutlery" id="fork" aria-hidden="true" <a href="https://www.yelp.com/user_details?userid=fngbWo26LpWNHFFm4h0Qig"> OMNOMNOM! Check out my Yelp profile</span></a> -->
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">See More!<span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.mcwt.org/"> Charity I support that helps women break the glass ceiling in Technology</a></li>
+                            <li><a href="https://www.reddit.com/r/kittens/">Kitten Photos!</a></li>
+                            <li><a href="http://visitdetroit.com/">Visit Detroit</a></li>
+                        </ul>
+                        <!-- <iframe src="http://widgets.klout.com/badge/Jenbonapace" scrolling="no" allowTransparency="true" frameBorder="0" width="200px" height="98px">Klout Score</iframe><br> -->
+                    </nav>
+                </div>
+            </div>
+            <div class='secondrow'>
+                <div class="col-md-4"><a class="twitter-timeline" data-lang="en" data-theme="dark" href="https://twitter.com/JenBonapace">Tweets by JenBonapace</a>
+                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+
+                <div class="col-md-8 columns">
+                    <div>
+                        <ng-view></ng-view>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="col-md-4 columns">
+                    <h3>Eat More Cake</h3>
+                    <a href="http://www.countryliving.com/food-drinks/recipes/a871/basic-vanilla-cake-69/" data-toggle="tooltip" title="Yum!Yum!"> Click for Vanilla Cake Recipe</a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <p id="Information">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <footer>
+                <div class="col-md-12">
+                    <hr> Created By Jennifer Bonapace <br> March 2017 <br>
+                    <span class="glyphicons glyphicons-heart-empty"></span><br>
+                    <a href="https://github.com/jenbonapace/finalproject">View the Code In Github!</a>
+                </div>
+            </footer>
+
         </div>
-    </footer>
-
-<script async defer src= "https://maps.googleapis.com/maps/api/js?key=AIzaSyDUo_vxC099_-fw9FGzdlWpnItJYBnW4Lg" type="text/javascript"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUo_vxC099_-fw9FGzdlWpnItJYBnW4Lg" type="text/javascript"></script>
 </body>
+
 </html>

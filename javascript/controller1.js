@@ -11,6 +11,10 @@ app.controller("controller1", function() {
       position: detroit,
       map: map
     });
+    var marker = new google.maps.Marker({
+      position: Rome,Italy,
+      map: map
+    });
   }
   console.log("hooray!");
 
