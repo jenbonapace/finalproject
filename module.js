@@ -18,6 +18,10 @@ app.config(function($routeProvider, $locationProvider) {
             controller: "controller1",
             templateUrl: "htmlfiles/templategrid.html"
         })
+        .when("/quotes", {
+            controller: "controller2",
+            templateUrl: "htmlfiles/quotes.html"
+        })
 
         .otherwise({
             redirectTo: "/"
