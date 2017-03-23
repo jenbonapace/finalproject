@@ -29,12 +29,13 @@
 
 
                     <ul class="nav navbar-nav">
+                        <!-- <li><a href="#/Home"> Home</a> --></li>
                         <li><a href="#/contact"> See My Contact Information</a></li>
                         <li><a href="#/aboutME"> Click here for My Biography!</a></li>
                         <li><a href="#/templategrid"> Portfolio Of My Work </a></li>
-                        <!--nothing here yet <li><a href="#/resume">Jennifer's Resume </a></li> -->
-                        <!-- link here s broken! <li><a href="#/quotes">Click here for Quotes!</a></li> -->
-                        <li><a href="#/travel">Click here to see more about My travels</a></li>
+                        <li><a href="#/resume"> Jennifer's Resume </a></li>
+                        <!-- <li><a href="#/quotes"> Click here for Quotes!</a></li> -->
+                        <li><a href="#/travel"> Click here to see more about My travels</a></li>
 
                         <!--check out this glyphicon and link to yelp page  -->
                         <!-- <span class="glyphicon glyphicon-cutlery" id="fork" aria-hidden="true" <a href="https://www.yelp.com/user_details?userid=fngbWo26LpWNHFFm4h0Qig"> OMNOMNOM! Check out my Yelp profile</span></a> -->
@@ -45,61 +46,46 @@
             </div>
 
 
-            <div class='row'>
+
+            <div class='secondrow'>
+                <div class="col-md-3">
+                    <div class="pull-right">
+                        <a class="twitter-timeline" data-lang="en" data-height="300" data-theme="dark" data-chrome="nofooter noborders" href="https://twitter.com/JenBonapace">Tweets by JenBonapace</a>
+                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class="col-md-6 col-md-offset-2">
+                        <ng-view></ng-view>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="More">
+                <div class="col-md-4 columns">
+                    <h3>Links I found helpful or interesting .</h3>
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">See More!<span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.mcwt.org/"> Charity I support that helps women break the glass ceiling in Technology</a></li>
+                        <li><a href="https://www.reddit.com/r/kittens/">Kitten Photos!</a></li>
+                        <li><a href="http://visitdetroit.com/">Visit Detroit</a></li>
+                        <li><a href="http://www.countryliving.com/food-drinks/recipes/a871/basic-vanilla-cake-69/" data-toggle="tooltip" title="Yum!Yum!"> Click for Vanilla Cake Recipe</a></li>
+                    </ul>
+                </div>
                 <div class="col-md-8">
-                    <h3> <strong>Jennifer's Website </strong> </h3>
-                    <img src="images/hartplaza.jpg" alt="Hart Plaza Metal Sculpture in Detroit" HSPACE=20px class="pull-left" width=240px;></img>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    <p id="Information">
+                        I can do all this through Him who gives me strength. Philippians 4:13 </p>
                 </div>
-
-
-
-
-
-
-                <div class='secondrow'>
-                    <div class="col-md-3">
-                        <div class="pull-right">
-                            <a class="twitter-timeline" data-lang="en" data-height="300" data-theme="dark" data-chrome="nofooter noborders" href="https://twitter.com/JenBonapace">Tweets by JenBonapace</a>
-                            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        </div>
+                <footer>
+                    <div class="col-md-12">
+                        <hr> Created By Jennifer Bonapace <br> March 2017 <br>
+                        <span class="glyphicons glyphicons-heart-empty"></span><br>
+                        <a href="https://github.com/jenbonapace/finalproject">View the Code In Github!</a>
                     </div>
-                    <div class='row'>
-                        <div class="col-md-6 col-md-offset-2">
-                            <ng-view></ng-view>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="col-md-4 columns">
-                        <h3>Links I found helpful or interesting .</h3>
-                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">See More!<span class="caret"></span></button>
-                        <ul class="dropdown-menu">
-                            <li><a href="https://www.mcwt.org/"> Charity I support that helps women break the glass ceiling in Technology</a></li>
-                            <li><a href="https://www.reddit.com/r/kittens/">Kitten Photos!</a></li>
-                            <li><a href="http://visitdetroit.com/">Visit Detroit</a></li>
-                            <li><a href="http://www.countryliving.com/food-drinks/recipes/a871/basic-vanilla-cake-69/" data-toggle="tooltip" title="Yum!Yum!"> Click for Vanilla Cake Recipe</a></li>
-
-                        </ul>
-                    </div>
-
-                    <div class="col-md-8">
-                        <p id="Information">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-
-                    <footer>
-                        <div class="col-md-12">
-                            <hr> Created By Jennifer Bonapace <br> March 2017 <br>
-                            <span class="glyphicons glyphicons-heart-empty"></span><br>
-                            <a href="https://github.com/jenbonapace/finalproject">View the Code In Github!</a>
-                        </div>
-                    </footer>
-
-                </div>
-                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUo_vxC099_-fw9FGzdlWpnItJYBnW4Lg" type="text/javascript"></script>
+                </footer>
+            </div>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUo_vxC099_-fw9FGzdlWpnItJYBnW4Lg" type="text/javascript"></script>
 </body>
 
 </html>

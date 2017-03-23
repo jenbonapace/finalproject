@@ -2,6 +2,10 @@ var app = angular.module("Mod", ['ngRoute']);
 // //config goes here.
 app.config(function($routeProvider, $locationProvider) {
     $routeProvider
+        // make sure this is linked properly
+        .when("/Home", {
+            templateUrl: "htmlfiles/hartplaza.html"
+        })
         .when('/aboutME', {
             controller: 'controller1',
             templateUrl: 'htmlfiles/aboutME.html'
@@ -22,9 +26,13 @@ app.config(function($routeProvider, $locationProvider) {
             controller: "controller2",
             templateUrl: "htmlfiles/quotes.html"
         })
+        .when("/resume", {
+            controller: "controller1",
+            templateUrl: "htmlfiles/resume.html"
+        })
 
         .otherwise({
-            redirectTo: "/"
+            redirectTo: "/Home"
         });
     $locationProvider.hashPrefix("")
 });
