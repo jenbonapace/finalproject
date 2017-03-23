@@ -2,4 +2,8 @@
 <div id="quoteDisplay"></div>
 
 <form>
-  <input type="button" name="words" value="ClicK" label="button1" ng-click="quote()"/>New Quote</form>
+  <button type="button"  name="words" value="ClicK" label="button1" ng-click="getQuote()">New Quote>
+  </button>
+</form>
+
+<p ng-repeat="quote in emptyquote">{{quote.phrase}}</p>
