@@ -1,3 +1,11 @@
 <h1>Pick a Quote!</h1>
 <div id="quoteDisplay"></div>
 <button onclick="quote()">New Quote</button>
+
+<h3> The Spice Girls </h3>
+<div ng-init="spiceGirls=['Posh', 'Baby', 'Ginger', 'Scary','Sporty']">
+    <ul>
+        <li ng-repeat="spice in spiceGirls">{{spice}}
+        </li>
+    </ul>
+</div>

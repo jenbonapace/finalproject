@@ -2,6 +2,8 @@ var app = angular.module("Mod");
 //recall the mod which is our container.
 app.controller("controller2", function(){
 quote();
+var number = Math.floor(Math.random()*quote.length);
+=quote[number];
 
 
 

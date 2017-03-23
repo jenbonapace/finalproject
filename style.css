@@ -3,8 +3,7 @@ body {
 }
 
 a:hover {
-    font-size: 25px;
-    font-style: oblique;
+    font-size: 22px;
     font-weight: bolder;
     background-color: #FFFF00;
 }
@@ -25,16 +24,8 @@ a:hover {
 
 #navbar {
     position: relative;
-    height: 100px;
-    background-color: lightpink;
+    background-color: green;
 }
-
-/*.secondrow {
-    height: 100px;
-    position: static;
-    overflow-x: visible;
-}*/
-
 #map {
     height: 400px;
     width: 400px;
