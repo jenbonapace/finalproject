@@ -1,9 +1,10 @@
 <h1>Click for a Quote!</h1>
-<div id="quoteDisplay"></div>
+<div id="quoteDisplay">
+
+<p ng-repeat="quote in emptyquote">{{quote.phrase}}</p>
+</div>
 
 <form>
   <button type="button"  name="words" value="ClicK" label="button1" ng-click="getQuote()">New Quote>
   </button>
 </form>
-
-<p ng-repeat="quote in emptyquote">{{quote.phrase}}</p>
